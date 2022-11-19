@@ -1,0 +1,10 @@
+language: node_js
+dist: trusty
+sudo: required
+node_js: stable
+install:
+  - npm install
+  - npm run setup
+script:
+  - npm run -s build
+  - npm -s test

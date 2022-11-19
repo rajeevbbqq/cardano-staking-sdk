@@ -1,0 +1,11 @@
+*.swp
+bower_components/
+node_modules/
+output/
+npm-debug.log
+yarn.lock
+yarn-error.log
+.psc-ide-port
+/.spago/
+yarn.lock
+package-lock.json

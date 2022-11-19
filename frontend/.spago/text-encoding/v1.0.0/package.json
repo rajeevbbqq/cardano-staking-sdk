@@ -1,0 +1,33 @@
+{
+  "name": "purescript-text-encoding",
+  "description": "WHATWG/W3C Encoding Standard",
+  "scripts": {
+    "setup": "npm install && bower install",
+    "build": "pulp build",
+    "test": "pulp test",
+    "publish": "pulp build && pulp test && pulp publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AlexaDeWit/purescript-text-encoding.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlexaDeWit/purescript-text-encoding/issues"
+  },
+  "keywords": [
+    "purescript",
+    "encode",
+    "decode",
+    "TextEncoder",
+    "TextDecoder"
+  ],
+  "author": "Andreas Schacker",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "bower": "^1.8.8",
+    "pulp": "^13.0.0",
+    "purescript": "^0.13.4",
+    "purescript-psa": "^0.6.0",
+    "rimraf": "^2.6.2"
+  }
+}
